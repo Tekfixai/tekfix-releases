@@ -1,0 +1,21 @@
+PackageIdentifier: Lanmark.TekFixSupportAgent
+PackageVersion: 3.1.2
+MinimumOSVersion: 10.0.0.0
+InstallerType: inno
+Scope: machine
+InstallModes:
+  - interactive
+  - silent
+  - silentWithProgress
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/Tekfixai/tekfix-releases/releases/download/v3.1.2/LanmarkTekFixSetup_v3.1.2_Silent.exe
+    InstallerSha256: REPLACE_WITH_ACTUAL_SHA256
+    InstallerSwitches:
+      Silent: /VERYSILENT /SUPPRESSMSGBOXES /NORESTART
+      SilentWithProgress: /SILENT /SUPPRESSMSGBOXES /NORESTART
+      InstallLocation: /DIR="<INSTALLPATH>"
+      Log: /LOG="<LOGPATH>"
+    UpgradeBehavior: install
+ManifestType: installer
+ManifestVersion: 1.6.0
