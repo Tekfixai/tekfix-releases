@@ -2,16 +2,14 @@
 
 Public release binaries for the LanmarkTekFix Support Agent.
 
-## Install via winget
+## Download
 
-```powershell
-winget install Lanmark.TekFixSupportAgent
-```
+See the [Releases](https://github.com/Tekfixai/tekfix-releases/releases) page for the latest installer.
 
 ## Silent Install (RMM Deployment)
 
 ```powershell
-LanmarkTekFixSetup_v3.1.2_Silent.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART
+LanmarkTekFixSetup_v3.1.5-b4_Silent.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART
 ```
 
 ## Silent Uninstall
